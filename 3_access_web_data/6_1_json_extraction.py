@@ -2,6 +2,9 @@
 and then parse and extract the comment counts from the JSON data, 
 compute the sum of the numbers in the file and enter the sum below"""
 
+import urllib.request
+import json
+
 def prompt_url():
     # Prompt url from user
     url = input('Please enter the url -')
